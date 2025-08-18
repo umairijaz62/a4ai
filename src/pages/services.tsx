@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import {PencilRuler, Sparkles, Users } from 'lucide-react'
+import {GraduationCap, PencilRuler, Sparkles, Users } from 'lucide-react'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState } from "react"
 import { Navbar } from "@/components/Navbar"
@@ -18,29 +18,28 @@ export default function WhatWeOffer() {
         "Our Steam Camp offers a dynamic learning environment where creativity meets innovation. Explore various fields through interactive projects and collaborative challenges designed to spark curiosity and foster scientific thinking.",
       icon: PencilRuler,
       href: "/services/steam",
-      bgColor: "bg-blue-50",
-      iconColor: "text-blue-700",
-      buttonColor: "bg-blue-700 hover:bg-blue-800",
-      features: ["Interactive Projects", "Problem Solving", "Hands-on Learning"],
-      stats: "50+ Projects"
     },
     {
-      id: "mentor-program",
+      id: "zerocodeai",
       title: "Zero Code AI",
       description:
         "Our AI training programs offer practical, no-code experience and collaborative learning, empowering professionals to design real-world AI solutions and excel in the evolving digital landscape.",
       icon: Users,
       href: "/services/zerocodeai ",
-      bgColor: "bg-blue-100",
-      iconColor: "text-blue-800",
-      buttonColor: "bg-blue-800 hover:bg-blue-900",
-      features: ["Expert Mentors", "Personalized Guidance", "Academic Excellence"],
-      stats: "95% Success Rate"
+    },
+    {
+        id: "mentor-program",
+        title: "Mentor Program",
+        description:
+        "Mentoring Young Minds is a holistic program designed to guide college students towards top-ranked universities in Pakistan and abroad. From career counselling and profile building bootcamps to internships, foreign language courses, and one-on-one mentorship with top NUST performers, this program equips students with the direction, skills, and confidence to stand out and succeed globally.",
+      icon: GraduationCap,
+      href: "/services/mentor ",
     },
   ]
 
   return (
-    <div className="min-h-screen bg-blue-50 flex items-center justify-center flex-col">
+        <>
+      <div className="min-h-screen bg-blue-50 flex items-center justify-center flex-col">
       <Navbar />
       
       <main className="relative flex flex-col items-center justify-center py-12 md:py-20 px-4">
@@ -66,11 +65,11 @@ export default function WhatWeOffer() {
 
         {/* Programs Section */}
         <div className="w-full max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {programs.map((program, index) => (
               <Card
                 key={program.id}
-                className={`group relative overflow-hidden bg-white/80 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 ${program.bgColor}/50`}
+                className={`group relative overflow-hidden  backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-blue-50`}
                 onMouseEnter={() => {}}
                 onMouseLeave={() => setHoveredProgram(null)}
                 style={{
@@ -84,9 +83,6 @@ export default function WhatWeOffer() {
                 <div className="absolute inset-0 rounded-lg bg-blue-800/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
                 <CardHeader className="relative flex flex-col items-center text-center p-10 pb-6">
-                  <div className={`p-6 rounded-2xl ${program.bgColor} group-hover:scale-110 transition-transform duration-300 mb-6 shadow-lg`}>
-                    <program.icon className={`h-10 w-10 ${program.iconColor}`} />
-                  </div>
                   <CardTitle className="text-3xl font-bold text-gray-800 group-hover:text-gray-900 transition-colors duration-300 mb-4">
                     {program.title}
                   </CardTitle>
@@ -97,21 +93,10 @@ export default function WhatWeOffer() {
                     {program.description}
                   </p>
                   
-                  {/* Features */}
-                  <div className="space-y-3 mb-8">
-                    <h4 className="text-sm font-semibold text-blue-800 uppercase tracking-wide">Key Features</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {program.features.map((feature) => (
-                        <span key={feature} className="px-4 py-2 text-sm font-medium bg-white/80 text-blue-700 rounded-full border border-blue-700">
-                          {feature}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
                 </CardContent>
                 
                 <CardFooter className="relative p-10 pt-0">
-                <Link href={program.href} className="w-full ${program.buttonColor} text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 group-hover:shadow-lg flex items-center justify-center gap-3 text-lg bg-blue-900">
+                <Link href={program.href} className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 group-hover:shadow-lg flex items-center justify-center gap-3 text-lg ">
                     <span>View Courses</span>
                         </Link>
                 </CardFooter>
@@ -145,7 +130,8 @@ export default function WhatWeOffer() {
         </div>
       </main>
       
-      <Footer />
     </div>
+      <Footer />
+      </>
   )
 }

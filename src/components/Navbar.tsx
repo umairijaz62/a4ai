@@ -194,6 +194,7 @@ export const Navbar = () => {
                   Jolly Phonics
                 </Link> */}
               </NestedNavOption>
+              <NestedNavOption text="Mentor Program" link="/services/mentor" />
               
               {/* <NestedNavOption text="Mentor Program for O/A Level" link="/services/mentor">
                 <Link 
