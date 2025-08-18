@@ -38,10 +38,7 @@ export default function aforai() {
               <span className="font-medium">Age Group:</span>
               <span className="font-bold">8-14 years</span>
             </div>
-            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full">
-              <span className="font-medium">Duration:</span>
-              <span className="font-bold">6 hours</span>
-            </div>
+           
           </div>
         </div>
 

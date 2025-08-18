@@ -46,30 +46,30 @@ export default function SteamCamp() {
       buttonColor: "bg-blue-800 hover:bg-blue-900",
       skills: ["Machine Learning", "Data Science", "Future Tech"],
     },
-    {
-      id: "jolly-phonics",
-      title: "Jolly Phonics",
-      description:
-        "A fun and engaging program to master reading and writing skills through synthetic phonics. Perfect for young learners.",
-      icon: BookText,
-      link: "./steam/jolly",
-      bgColor: "bg-blue-50",
-      iconColor: "text-blue-700",
-      buttonColor: "bg-blue-700 hover:bg-blue-800",
-      skills: ["Reading", "Writing", "Communication"],
-    },
-    {
-      id: "cyber-security",
-      title: "Cyber Security",
-      description:
-        "Learn essential skills to protect digital information and systems from cyber threats. Understand online safety and ethical hacking basics.",
-      icon: ShieldCheck,
-      link: "./steam/cybersec",
-      bgColor: "bg-blue-100",
-      iconColor: "text-blue-800",
-      buttonColor: "bg-blue-800 hover:bg-blue-900",
-      skills: ["Security", "Ethical Hacking", "Digital Safety"],
-    },
+    // {
+    //   id: "jolly-phonics",
+    //   title: "Jolly Phonics",
+    //   description:
+    //     "A fun and engaging program to master reading and writing skills through synthetic phonics. Perfect for young learners.",
+    //   icon: BookText,
+    //   link: "./steam/jolly",
+    //   bgColor: "bg-blue-50",
+    //   iconColor: "text-blue-700",
+    //   buttonColor: "bg-blue-700 hover:bg-blue-800",
+    //   skills: ["Reading", "Writing", "Communication"],
+    // },
+    // {
+    //   id: "cyber-security",
+    //   title: "Cyber Security",
+    //   description:
+    //     "Learn essential skills to protect digital information and systems from cyber threats. Understand online safety and ethical hacking basics.",
+    //   icon: ShieldCheck,
+    //   link: "./steam/cybersec",
+    //   bgColor: "bg-blue-100",
+    //   iconColor: "text-blue-800",
+    //   buttonColor: "bg-blue-800 hover:bg-blue-900",
+    //   skills: ["Security", "Ethical Hacking", "Digital Safety"],
+    // },
   ];
 
   return (
@@ -111,7 +111,7 @@ export default function SteamCamp() {
 
         {/* steam Grid */}
         <div className="w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
             {courses.map((course, index) => (
               <Card
                 key={course.id}
