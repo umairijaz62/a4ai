@@ -12,7 +12,7 @@ export const newsitems:newsitem[]= [
         description:"Sep 2023: Murabbi and NUST (SEECS) Offered Interactive Hands-On Workshop: Simplifying Object Detection and Lowering Entry Barriers in Computer Vision."
     },
      {
-        image:"/newspic/3.jpeg",
+        image:"/newspic/3.jpg",
         description:"26-30 Dec, 2023: Murabbi & Elements Learning Hosted Winter STEM Camp (AI, Robotics & Math) at NUST Creative Learning School."
     },
      {
@@ -36,11 +36,11 @@ export const newsitems:newsitem[]= [
         description:"3 March 2025: Dr Wajahat Hussain delivered “AI for Policy Makers” seminar for BS-20 officers at NIMS, Islamabad. Participants of the Course belonged to various services/occupational groups, such as Pakistan Administrative Service, Pakistan Custom Service, Secretariat Group, Pakistan Audit & Accounts Service, Foreign Service of Pakistan, Commerce & Trade Group, Inland Revenue Service, Police Service of Pakistan, Information Group and various Ministries/Autonomous Bodies."
     },
     {
-        image:"/newspic/9.jpeg",
+        image:"/newspic/9.jpg",
         description:"14-18 July 2025: Murabbi & Nust conducted “Game On: Unity Game Development Bootcamp” led by Mr. Umer Nasim (Senior Software Engineer with 10 year game dev experience), covering Unity Scripts, 2D & 3D Games, Scene Design for young aspiring developers.",
     },
     {
-        image:"/newspic/10.jpeg",
+        image:"/newspic/11.jpg",
         description:"16 June - 25 July 2025: Murabbi & NUST-SEECS hosted Summer Camp 2025 in 2 sessions for ages 4-14, featuring specialized tracks in Robotics, Cyber Security, and AI/ML with activities including Jolly Phonics, Science Projects, IoT Projects and Machine Learning."
     }
 ]

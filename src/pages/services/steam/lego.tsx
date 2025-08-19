@@ -1,5 +1,8 @@
+import { ActivitiesSection } from '@/components/ActivitySection';
 import Footer from '@/components/Footer';
+import LegoActivities from '@/components/LegoActivities';
 import { Navbar } from '@/components/Navbar';
+import Testimonials from '@/components/Testimonials';
 import React from 'react';
 
 const FirstLegoLeaguePage = () => {
@@ -38,49 +41,14 @@ const FirstLegoLeaguePage = () => {
 
         {/* Activities Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-3">Activities</h2>
+          <h2 className="text-4xl text-blue-900 font-bold text-center mb-8 border-b border-slate-200 pb-3">Activities</h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Robot Building</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Students design and construct robots using LEGO Mindstorms technology.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Programming</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Learn to code robots using intuitive programming interfaces.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Competition Challenges</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Participate in exciting robot missions and timed challenges.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Research Project</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Explore real-world problems and present innovative solutions.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Team Collaboration</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Work together to solve challenges and develop core values.
-              </p>
-            </div>
-          </div>
+            <LegoActivities/>
         </section>
 
         {/* Learning Outcomes Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6 border-b border-slate-200 pb-3">Learning Outcomes</h2>
+          <h2 className="text-4xl text-blue-900 font-bold text-center mb-6 border-b border-slate-200 pb-3">Learning Outcomes</h2>
 
           <div className="space-y-4">
             <p className="text-slate-700 leading-relaxed">
@@ -95,6 +63,7 @@ const FirstLegoLeaguePage = () => {
         </section>
 
       </div>
+      <Testimonials />
         <Footer />
     </main>
   )
