@@ -106,23 +106,6 @@ export default function LegoActivities() {
     return "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
   }
 
-  const getDifficultyColor = (difficulty: string): string => {
-    switch (difficulty) {
-      case "Beginner":
-        return "bg-green-100 text-green-800 border-green-200"
-      case "Intermediate":
-        return "bg-blue-100 text-blue-800 border-blue-200"
-      case "Advanced":
-        return "bg-orange-100 text-orange-800 border-orange-200"
-      case "Expert":
-        return "bg-red-100 text-red-800 border-red-200"
-      case "Tournament":
-        return "bg-purple-100 text-purple-800 border-purple-200"
-      default:
-        return "bg-gray-100 text-gray-800 border-gray-200"
-    }
-  }
-
   return (
     <div className="px-4">
       <div className="max-w-7xl mx-auto">
@@ -191,6 +174,25 @@ export default function LegoActivities() {
               </Card>
             ))}
           </div>
+        </div>
+         <div className="flex flex-wrap justify-center gap-4 mb-16">
+          {Object.keys(programData).map((day) => {
+            const dayNumber = Number.parseInt(day) as 1 | 2 | 3 | 4 | 5
+            return (
+              <Button
+                key={day}
+                onClick={() => setSelectedDay(dayNumber)}
+                variant={selectedDay === dayNumber ? "default" : "outline"}
+                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                  selectedDay === dayNumber
+                    ? "bg-blue-700 text-white shadow-lg hover:bg-blue-800"
+                    : "bg-white text-blue-800 border-blue-200 hover:bg-blue-50"
+                }`}
+              >
+                {programData[dayNumber].period}
+              </Button>
+            )
+          })}
         </div>
       </div>
     </div>
