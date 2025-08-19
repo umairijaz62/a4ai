@@ -16,7 +16,6 @@ export default function WhatWeOffer() {
       title: "STEAM Camps",
       description:
         "Our Steam Camp offers a dynamic learning environment where creativity meets innovation. Explore various fields through interactive projects and collaborative challenges designed to spark curiosity and foster scientific thinking.",
-      icon: PencilRuler,
       href: "/services/steam",
     },
     {
@@ -24,15 +23,20 @@ export default function WhatWeOffer() {
       title: "Zero Code AI",
       description:
         "Our AI training programs offer practical, no-code experience and collaborative learning, empowering professionals to design real-world AI solutions and excel in the evolving digital landscape.",
-      icon: Users,
       href: "/services/zerocodeai ",
     },
     {
         id: "mentor-program",
         title: "Mentor Program",
         description:
-        "Mentoring Young Minds is a holistic program designed to guide college students towards top-ranked universities in Pakistan and abroad. From career counselling and profile building bootcamps to internships, foreign language courses, and one-on-one mentorship with top NUST performers, this program equips students with the direction, skills, and confidence to stand out and succeed globally.",
-      icon: GraduationCap,
+        "Mentoring Young Minds helps college students prepare for top universities in Pakistan and abroad. From career counselling and profile building to internships, languages, and mentorship with NUST’s top performers it equips you with skills and direction to stand out globally.",
+      href: "/services/mentor ",
+    },
+    {
+        id: "STEAM Tour",
+        title: "STEAM Tour",
+        description:
+        "Explore Pakistan’s No. 1 ranked university through an exciting STEM experience. Meet top researchers, join hands-on competitions, and enjoy interactive lab tours that make learning fun and inspiring.",
       href: "/services/mentor ",
     },
   ]
@@ -63,9 +67,8 @@ export default function WhatWeOffer() {
             ))}
           </div>
 
-        {/* Programs Section */}
         <div className="w-full max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {programs.map((program, index) => (
               <Card
                 key={program.id}
@@ -106,7 +109,6 @@ export default function WhatWeOffer() {
         </div>
 
 
-        {/* Additional Info Section */}
         <div className="mt-16 w-full max-w-4xl">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl border border-blue-700/20 p-8 shadow-lg">
             <div className="text-center">

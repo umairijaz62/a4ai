@@ -195,6 +195,8 @@ export const Navbar = () => {
                 </Link> */}
               </NestedNavOption>
               <NestedNavOption text="Mentor Program" link="/services/mentor" />
+              <NestedNavOption text="STEAM Tour" link="/services/steamtour" />
+
               
               {/* <NestedNavOption text="Mentor Program for O/A Level" link="/services/mentor">
                 <Link 
