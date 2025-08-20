@@ -26,8 +26,7 @@ export default function steamtour() {
         {/* Introduction */}
         <div className="mb-12">
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
-            Join us and discover the wonders of No. 1 ranked university in Pakistan through an exciting STEM exploration
-            experience.
+            Join us and discover the wonders of No. 1 ranked university in Pakistan.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -63,29 +62,30 @@ export default function steamtour() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">STEM Talk</h3>
-              <p className="text-slate-600 leading-relaxed">
+              {/* <p className="text-slate-600 leading-relaxed">
                 Engage with leading researchers and faculty members as they share insights into cutting-edge STEM
                 research and innovations happening at NUST.
-              </p>
+              </p> */}
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">STEM Competition</h3>
-              <p className="text-slate-600 leading-relaxed">
+              {/* <p className="text-slate-600 leading-relaxed">
                 Participate in hands-on challenges and competitions that showcase the practical applications of science,
                 technology, engineering, and mathematics.
-              </p>
+              </p> */}
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Entertainment</h3>
-              <p className="text-slate-600 leading-relaxed">
+              {/* <p className="text-slate-600 leading-relaxed">
                 Enjoy interactive demonstrations, lab tours, and engaging activities that make learning STEM concepts
                 fun and memorable.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>
+            <p className='text-slate-600 leading-relaxed'>Join us for an exciting day at NUST</p>
       </div>
       <Footer />
     </main>

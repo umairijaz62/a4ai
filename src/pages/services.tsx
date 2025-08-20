@@ -37,7 +37,7 @@ export default function WhatWeOffer() {
         title: "STEAM Tour",
         description:
         "Explore Pakistan’s No. 1 ranked university through an exciting STEM experience. Meet top researchers, join hands-on competitions, and enjoy interactive lab tours that make learning fun and inspiring.",
-      href: "/services/mentor ",
+      href: "/services/steamtour ",
     },
   ]
 

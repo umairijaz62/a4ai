@@ -36,7 +36,7 @@ export default function mentor() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          {/* <div className="flex flex-wrap gap-4">
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full">
               <span className="font-medium">Faculty:</span>
               <span className="font-bold">100+ Qualified</span>
@@ -49,26 +49,30 @@ export default function mentor() {
               <span className="font-medium">Alumni:</span>
               <span className="font-bold">Top Ranked Universities</span>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Services Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-3">Our Services</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-3"> </h2>
 
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Career Counselling</h3>
               <p className="text-slate-600 leading-relaxed">
-                What to decide which country/university to choose for higher education? Get expert guidance from our
-                qualified faculty.
+                What to decide which country/university to choose for higher education?
               </p>
+              <ul className='text-slate-600 leading-relaxed list-disc p-5'>
+                <li>100+ Internally Qualified Faculty</li>
+                <li>20 Countries</li>
+                <li>Top Ranked University Alumni</li>
+              </ul>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Profile Building Bootcamps</h3>
               <p className="text-slate-600 leading-relaxed">
-                Make your application stand out from your peers with comprehensive profile development strategies.
+                Make your application stand out from your peers.
               </p>
             </div>
 
@@ -91,7 +95,8 @@ export default function mentor() {
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Lunch with a NUSTIAN</h3>
               <p className="text-slate-600 leading-relaxed">
                 Want to join the best university in the country? Meet the highest performing NUSTian. Discuss how to
-                plan before joining NUST or benefit from top performers for excelling in a competitive environment.
+                plan before joining NUST. If you have already joined, benefit from top performers for excelling in a competitive environment.
+
               </p>
             </div>
           </div>

@@ -49,30 +49,19 @@ export default function aforai() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Bringing Stories to Life</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Explore how AI can enhance storytelling and creative expression.
-              </p>
+              
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Building Your First AI Program</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Get hands-on experience creating simple AI applications and understanding how they work.
-              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">How To Stop Robots Taking Over The World?</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Learn about AI safety, ethics, and the importance of human oversight in AI systems.
-              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">AI and The Ugly Duckling Challenge</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Apply AI concepts to classic storytelling while exploring bias and fairness in AI systems.
-              </p>
             </div>
           </div>
         </section>
@@ -83,13 +72,10 @@ export default function aforai() {
 
           <div className="space-y-4">
             <p className="text-slate-700 leading-relaxed">
-              Students will acquire prompt engineering skills to effectively utilize ChatGPTs. They will gain an
-              understanding of the three fundamental components of AI applications, which will help set realistic
-              expectations and alleviate unnecessary fears.
+              Students will acquire prompt engineering skills to effectively utilize ChatGPTs. They will gain an understanding of the three fundamental components of AI applications, which will help set realistic expectations and alleviate unnecessary fears. Additionally, this knowledge will enable them to build safeguards against AI biases and ethical challenges.
+
             </p>
             <p className="text-slate-700 leading-relaxed">
-              Additionally, this knowledge will enable them to build safeguards against AI biases and ethical
-              challenges, preparing them to be responsible AI users in the digital age.
             </p>
           </div>
         </section>
