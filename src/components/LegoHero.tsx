@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="bg-blue-900 text-white p-6 w-52 text-center">
           <h2 className="text-sm font-bold">FIRST LEGO LEAGUE</h2>
           <p className="text-lg font-semibold mt-1">Period </p>
-          <p className="mt-2 text-sm">3 Eeeks</p>
+          <p className="mt-2 text-sm">3 Weeks</p>
         </div>
       </div>
     </section>
