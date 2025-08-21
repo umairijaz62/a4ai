@@ -8,6 +8,7 @@ export default function aforai() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
+      
       <div className="bg-blue-50 border-b border-slate-200">
         <div className="max-w-4xl mx-auto px-6 py-8">
           <div className="flex justify-center">
@@ -40,9 +41,6 @@ export default function aforai() {
 
         {/* Activities Section */}
         <section className="mb-12">
-          <h2 className="text-4xl font-bold text-blue-600 mb-8 border-b border-slate-200 pb-3 text-center">
-            Activities
-          </h2>
           <AIActivities />
         </section>
 
