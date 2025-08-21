@@ -1,30 +1,25 @@
 import Footer from '@/components/Footer'
 import { Navbar } from '@/components/Navbar'
+import ParentsTestimonials from '@/components/Parents'
+import TourActivities from '@/components/TourActivities'
 import React from 'react'
 
 export default function steamtour() {
    return (
     <main className="min-h-screen bg-blue-50">
         <Navbar />
-      <div className="bg-blue-50 border-b border-slate-200">
+       <div className="bg-blue-50 border-b border-slate-200">
         <div className="max-w-4xl mx-auto px-6 py-8">
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center text-blue-600 font-bold text-xs">
-                S
-              </div>
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">STEM Tour: A Day at NUST</h1>
-            </div>
+          <div className="flex justify-center">
+            <h1 className="text-3xl font-bold text-blue-600">STEM Tour: A Day at NUST</h1>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="max-w-full mx-auto px-6 py-12">
         {/* Introduction */}
-        <div className="mb-12">
+        <div className="mb-12 px-10 md:px-20 lg:px-36">
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
             Join us and discover the wonders of No. 1 ranked university in Pakistan.
           </p>
@@ -57,36 +52,14 @@ export default function steamtour() {
 
         {/* Activities Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-3">Tour Activities</h2>
-
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">STEM Talk</h3>
-              {/* <p className="text-slate-600 leading-relaxed">
-                Engage with leading researchers and faculty members as they share insights into cutting-edge STEM
-                research and innovations happening at NUST.
-              </p> */}
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">STEM Competition</h3>
-              {/* <p className="text-slate-600 leading-relaxed">
-                Participate in hands-on challenges and competitions that showcase the practical applications of science,
-                technology, engineering, and mathematics.
-              </p> */}
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Entertainment</h3>
-              {/* <p className="text-slate-600 leading-relaxed">
-                Enjoy interactive demonstrations, lab tours, and engaging activities that make learning STEM concepts
-                fun and memorable.
-              </p> */}
-            </div>
-          </div>
-        </section>
-            <p className='text-slate-600 leading-relaxed'>Join us for an exciting day at NUST</p>
+                  <h2 className="text-4xl font-bold text-blue-600 mb-8 border-b border-slate-200 pb-3 text-center">
+                    Activities
+                  </h2>
+                  <TourActivities />
+                </section>
+            {/* <p className='text-slate-600 leading-relaxed'>Join us for an exciting day at NUST</p> */}
       </div>
+      <ParentsTestimonials />
       <Footer />
     </main>
   )

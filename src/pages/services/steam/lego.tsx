@@ -1,7 +1,9 @@
 import { ActivitiesSection } from '@/components/ActivitySection';
 import Footer from '@/components/Footer';
+import LegoActivitiesTimeline from '@/components/LegoActivities';
 import LegoActivities from '@/components/LegoActivities';
 import { Navbar } from '@/components/Navbar';
+import ParentsTestimonials from '@/components/Parents';
 import Testimonials from '@/components/Testimonials';
 import React from 'react';
 
@@ -12,21 +14,16 @@ const FirstLegoLeaguePage = () => {
       {/* Header Section */}
       <div className="bg-blue-50 border-b border-slate-200">
         <div className="max-w-4xl mx-auto px-6 py-8">
-          <div className="flex justify-center items-center gap-4 mb-4">
-            <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-white rounded-sm"></div>
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">FIRST LEGO League</h1>
-            </div>
+          <div className="flex justify-center">
+              <h1 className="text-3xl font-bold text-blue-600">FIRST LEGO League</h1>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="max-w-full mx-auto px-6 py-12 ">
         {/* Introduction */}
-        <div className="mb-12">
+        <div className="mb-12 px-10 md:px-20 lg:px-36">
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
             FIRST LEGO League is a renowned international STEM competition held across{" "}
             <span className="font-semibold text-blue-700">110 countries</span>. We offer our local LEGO League
@@ -41,14 +38,13 @@ const FirstLegoLeaguePage = () => {
 
         {/* Activities Section */}
         <section className="mb-12">
-          <h2 className="text-4xl text-blue-900 font-bold text-center mb-8 border-b border-slate-200 pb-3">Activities</h2>
-
+          <h2 className="text-4xl text-blue-600 font-bold text-center mb-8 border-b border-slate-200 pb-3">Activities</h2>
             <LegoActivities/>
         </section>
 
         {/* Learning Outcomes Section */}
-        <section className="mb-12">
-          <h2 className="text-4xl text-blue-900 font-bold text-center mb-6 border-b border-slate-200 pb-3">Learning Outcomes</h2>
+        <section className="mb-12 px-10 md:px-20 lg:px-36 ">
+          <h2 className="text-4xl text-blue-600 font-bold  mb-6 border-b border-slate-200 pb-3 text-center">Learning Outcomes</h2>
 
           <div className="space-y-4">
             <p className="text-slate-700 leading-relaxed">
@@ -63,7 +59,8 @@ const FirstLegoLeaguePage = () => {
         </section>
 
       </div>
-      <Testimonials />
+
+      <ParentsTestimonials />
         <Footer />
     </main>
   )

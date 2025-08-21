@@ -3,55 +3,43 @@
 import { Activity, Award, Mountain, Navigation, Sparkles, Trophy, Users, Zap } from "lucide-react"
 import { Card, CardHeader, CardTitle } from "./ui/card"
 
-export default function LegoActivities() {
+export default function TourActivities() {
   const activities = [
     {
-      id: "robot-boot",
-      title: "5-Minute Robot Boot",
+      id: "1",
+      title: "SINES Tour",
       icon: Zap,
-      image: "/lego/day1.jpg",
+      image: "/tour/1.jpg",
     },
     {
-      id: "obstacle-avoidance",
-      title: "Obstacle Avoidance",
+      id: "2",
+      title: "SINES Tour",
       icon: Navigation,
-      image: "/lego/opticals.jpg",
+      image: "/tour/2.jpg",
     },
     {
-      id: "line-follower-1",
-      title: "Line Follower",
+      id: "3",
+      title: "Aerial Lab Visit",
       icon: Activity,
-      image: "/lego/line.jpg",
+      image: "/tour/3.jpg",
     },
     {
-      id: "slope-climbing",
-      title: "Slope Climbing",
+      id: "4",
+      title: "NBS Tour",
       icon: Mountain,
-      image: "/lego/slop.jpg",
+      image: "/tour/4.jpg",
     },
     {
-      id: "speed-racing-2",
-      title: "Speed Racing Advanced",
+      id: "5",
+      title: "Sport Complex",
       icon: Trophy,
-      image: "/lego/speed.jpg",
+      image: "/tour/6.jpg",
     },
     {
-      id: "sumo-wrestling-1",
-      title: "Ideal Bots Design",
+      id: "6",
+      title: "Sport Complex",
       icon: Sparkles,
-      image: "/lego/ideal.jpg",
-    },
-    {
-      id: "sumo-wrestling-2",
-      title: "Sumo Wrestling Training",
-      icon: Users,
-      image: "/lego/presumo.jpg",
-    },
-    {
-      id: "sumo-competition",
-      title: "Sumo Wrestling Championship",
-      icon: Award,
-      image: "/lego/sumo.jpg",
+      image: "/tour/5.jpg",
     },
   ]
 

@@ -3,55 +3,31 @@
 import { Activity, Award, Mountain, Navigation, Sparkles, Trophy, Users, Zap } from "lucide-react"
 import { Card, CardHeader, CardTitle } from "./ui/card"
 
-export default function LegoActivities() {
+export default function AIActivities() {
   const activities = [
     {
-      id: "robot-boot",
-      title: "5-Minute Robot Boot",
+      id: "1",
+      title: "Bringing Stories to Life",
       icon: Zap,
-      image: "/lego/day1.jpg",
+      image: "/ai/stories.jpg",
     },
     {
-      id: "obstacle-avoidance",
-      title: "Obstacle Avoidance",
+      id: "2",
+      title: "Smart Alexa Using Scratch",
       icon: Navigation,
-      image: "/lego/opticals.jpg",
+      image: "/ai/alexa.jpg",
     },
     {
-      id: "line-follower-1",
-      title: "Line Follower",
+      id: "3",
+      title: "Face Dectection Using AI",
       icon: Activity,
-      image: "/lego/line.jpg",
+      image: "/ai/face.jpg",
     },
     {
-      id: "slope-climbing",
-      title: "Slope Climbing",
+      id: "4",
+      title: "Puzzel Activity",
       icon: Mountain,
-      image: "/lego/slop.jpg",
-    },
-    {
-      id: "speed-racing-2",
-      title: "Speed Racing Advanced",
-      icon: Trophy,
-      image: "/lego/speed.jpg",
-    },
-    {
-      id: "sumo-wrestling-1",
-      title: "Ideal Bots Design",
-      icon: Sparkles,
-      image: "/lego/ideal.jpg",
-    },
-    {
-      id: "sumo-wrestling-2",
-      title: "Sumo Wrestling Training",
-      icon: Users,
-      image: "/lego/presumo.jpg",
-    },
-    {
-      id: "sumo-competition",
-      title: "Sumo Wrestling Championship",
-      icon: Award,
-      image: "/lego/sumo.jpg",
+      image: "/ai/puzzel.jpg",
     },
   ]
 

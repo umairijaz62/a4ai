@@ -66,7 +66,7 @@ const Testimonials = ({
   };
 
   return (
-    <div className="p-8 md:p-16">
+    <div className="p-8 md:p-32">
       <div
         ref={left}
         className={`${
