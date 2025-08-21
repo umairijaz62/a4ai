@@ -52,9 +52,6 @@ export default function steamtour() {
 
         {/* Activities Section */}
         <section className="mb-12">
-                  <h2 className="text-4xl font-bold text-blue-600 mb-8 border-b border-slate-200 pb-3 text-center">
-                    Activities
-                  </h2>
                   <TourActivities />
                 </section>
             {/* <p className='text-slate-600 leading-relaxed'>Join us for an exciting day at NUST</p> */}
