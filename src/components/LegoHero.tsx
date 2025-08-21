@@ -15,11 +15,11 @@ export default function Hero() {
 
       <div className="absolute inset-0 "></div>
 
-      <div className="relative flex flex-col w-full h-full justify-center gap-6 p-24">
+      <div className="relative flex flex-col w-full h-full p-6 md:justify-center gap-6 md:p-24">
         <h1 className="text-3xl md:text-5xl font-bold text-slate-300">
           First Lego League
         </h1>
-        <p className="text-blue-50 text-lg pr-[50%]">FIRST LEGO League is a renowned international STEM competition held across 110 countries. We offer our local LEGO League competition at your campus.</p>
+        <p className="text-blue-50 text-lg pr-3 md:pr-[50%]">FIRST LEGO League is a renowned international STEM competition held across 110 countries. We offer our local LEGO League competition at your campus.</p>
       </div>
 
       <div className="absolute bottom-[-40px] right-8 z-20 flex flex-col md:flex-row shadow-lg">
