@@ -32,10 +32,10 @@ export default function AIActivities() {
   ]
 
   return (
-    <div className="min-h-screen bg-blue-50 py-8">
-      <div className="max-w-7xl mx-auto px-4">
+   <div className="min-h-screen bg-blue-50 py-8">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col">
         <h2 className="text-4xl text-blue-600 font-bold text-center mb-8 border-b border-slate-200 pb-3">Activities</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {activities.map((activity) => (
             <Card 
               key={activity.id} 
@@ -71,5 +71,7 @@ export default function AIActivities() {
         </div>
       </div>
     </div>
+
+
   )
 }

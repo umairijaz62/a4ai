@@ -14,16 +14,35 @@ const TESTIMONIALS_DATA = [
       message: "I'm truly grateful to Team Murabbi for organizing the STEAM Camp on Robotics, AI, and Cybersecurity. The activities were not only exciting for the kids but also highly educational. My child came back every day with new skills, creative ideas, and a genuine excitement for learning.As a parent, I was amazed at how thoughtfully the camp was designed — combining fun with real-world knowledge in technology. The instructors were incredibly supportive, friendly, and made sure every child felt confident and engaged.This camp was a wonderful experience, and I hope Murabbi continues to arrange such innovative programs in the future."
     },
     {
+      id:4,
+      name:"Yang Minge",
+      image:"/parents/6.jpg",
+      message:"I really enjoyed the STEAM Camp! We learned how to build small robots and I made one that could move forward. In the AI session, I created funny stories with the computer and it was amazing to see how it worked. In cybersecurity, we tried encryption and decryption and I actually sent a secret code to my friend. It was so much fun, I want to join again",
+    },
+    {
       id: 2,
       name: "Khadija 's Mother",
       image:
         "/parents/2.jpg",
-      message: "Assalam-o-Alaikum, my daughter participated in the STEAM Camp by Murabbi, and it was a truly wonderful experience for both her and me as a parent. The camp was very thoughtfully designed with engaging activities in Robotics, AI, and Cybersecurity that captured the kids’ interest and curiosity. I was amazed to see how it not only improved her confidence, creativity, and problem-solving skills but also encouraged her imagination and critical thinking. The instructors were extremely cooperative, friendly, and welcoming, which made the children feel very comfortable. Overall, it was an excellent learning experience that sparked genuine excitement for technology in young minds."    },
+      message: "Assalam-o-Alaikum, my daughter participated in the STEAM Camp by Murabbi, and it was a truly wonderful experience for both her and me as a parent. The camp was very thoughtfully designed with engaging activities in Robotics, AI, and Cybersecurity that captured the kids’ interest and curiosity. I was amazed to see how it not only improved her confidence, creativity, and problem-solving skills but also encouraged her imagination and critical thinking. The instructors were extremely cooperative, friendly, and welcoming, which made the children feel very comfortable. Overall, it was an excellent learning experience that sparked genuine excitement for technology in young minds."
+    },
+    {
+      id:5,
+      name:"Faryal Saqib",
+      image:"/parents/4.jpg",
+      message:"At Murabbi STEAM Camp, I felt like a real scientist! We built bots, solved problems using AI, and played games that taught us about hacking and safety. My favorite part was encryption and decryption, because it was like solving mysteries. I enjoyed a lot, made new friends, and learned so many new things."
+    },
     {
       id: 3,
       name: "Ismail's Mother",
       image:"/parents/3.jpg",
       message: "I’m the mother of Ismail Shah, and this was our first experience with the STEAM Camp by Murabbi. It turned out to be wonderful! My son quickly adjusted and enjoyed learning Robotics, AI, and Cybersecurity through engaging, hands-on activities. The instructors were warm, supportive, and gave individual attention to each child. The camp was full of fun, practical, and activity-based learning. Truly a great experience, and we look forward to joining again next year."
+    },
+    {
+      id:6,
+      name:"Mutahir",
+      image:"/parents/5.jpg",
+      message:"This camp was the best experience for me. I learned how to make robots, play with sensors, and even write small programs. The AI activities were so cool, we made creative stories together. I also learned how to protect my data in cybersecurity by using secret codes. Everything was explained in such a fun way that it didn’t even feel like studying!"
     }
 ];
 
