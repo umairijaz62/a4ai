@@ -3,17 +3,19 @@ import AIHero from "@/components/AIHero";
 import Footer from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import ParentsTestimonials from "@/components/Parents";
+import SherlockActivities from "@/components/SherlockActivities";
+import Sherlockhero from "@/components/sherlockhero";
 import React from "react";
 
-export default function aforai() {
+export default function jrsherlock() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
-      <AIHero />
+      <Sherlockhero />
 
       <div className="max-w-full mx-auto px-6 ">
         <section className="mb-12 py-12">
-          <AIActivities />
+          <SherlockActivities />
         </section>
 
         <section className="px-10 md:px-20 lg:px-36">
@@ -23,12 +25,7 @@ export default function aforai() {
 
           <div className="">
             <p className="text-slate-700 leading-relaxed">
-              Students will acquire prompt engineering skills to effectively
-              utilize ChatGPTs. They will gain an understanding of the three
-              fundamental components of AI applications, which will help set
-              realistic expectations and alleviate unnecessary fears.
-              Additionally, this knowledge will enable them to build safeguards
-              against AI biases and ethical challenges.
+              Students will learn how to hide and encode messages, practice breaking simple codes, explore historical techniques of secret communication, understand the basics of cryptography, and discover how these skills connect to modern cybersecurity and career opportunities.
             </p>
           </div>
         </section>

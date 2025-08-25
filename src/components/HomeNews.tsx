@@ -41,7 +41,7 @@ const HomeNews = () => {
           }}
           className="w-full"
         >
-          <Link href={"/newsitems"}>
+          <Link href={"/news"}>
           <CarouselContent className="-ml-4">
             {groupedItems.map((group, slideIndex) => (
               <CarouselItem key={slideIndex} className="pl-4">

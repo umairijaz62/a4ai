@@ -58,7 +58,7 @@ type Props = {
   sectionContent?: typeof SECTION_CONTENT;
 };
 
-const Testimonials = ({ 
+const ParentsTestimonials = ({ 
   testimonials = TESTIMONIALS_DATA, 
   sectionContent = SECTION_CONTENT 
 }: Props) => {
@@ -160,4 +160,4 @@ const Testimonials = ({
   );
 };
 
-export default Testimonials;
+export default ParentsTestimonials;

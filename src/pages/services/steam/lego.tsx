@@ -13,19 +13,15 @@ const FirstLegoLeaguePage = () => {
     <main className="min-h-screen bg-blue-50">
         <Navbar />
         <Hero />
-      <div className="max-w-full mx-auto px-6 py-12 ">
-        {/* Introduction */}
 
-        {/* Activities Section */}
-        <section className="mb-12">
-          
+
+      <div className="max-w-full mx-auto px-6 ">
+        <section className="mb-12 py-12">  
             <LegoActivities/>
         </section>
 
-        {/* Learning Outcomes Section */}
-        <section className="mb-12 px-10 md:px-20 lg:px-36 ">
-          <h2 className="text-4xl text-blue-600 font-bold  mb-6 border-b border-slate-200 pb-3 text-center">Learning Outcomes</h2>
-
+        <section className="px-10 md:px-20 lg:px-36 ">
+          <h2 className="text-4xl text-blue-600 font-bold  mb-6 border-b border-slate-200 p-3 text-center">Learning Outcomes</h2>
           <div className="space-y-4">
             <p className="text-slate-700 leading-relaxed">
               Participants will gain foundational skills in robotics, programming, and teamwork while having fun

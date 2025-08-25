@@ -95,12 +95,12 @@ const Footer = (props: Props) => {
                 <Link href="/services/steam/ai">
                   <li className="mb-4 text-sm">Artificial Intelligence</li>
                 </Link>
-                <Link href="/services/steam/cybersec">
-                  <li className="text-sm mb-4">Cyber Security</li>
+                <Link href="/services/steam/jrsherlock">
+                  <li className="text-sm mb-4">Jr. Sherlock Holmes</li>
                 </Link>
-                <Link href="/services/steam/jolly">
+                {/* <Link href="/services/steam/jolly">
                   <li className="text-sm">Jolly Phonics</li>
-                </Link>
+                </Link> */}
               </ul>
             </div>
             <div>

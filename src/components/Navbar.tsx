@@ -181,13 +181,13 @@ export const Navbar = () => {
                 >
                   A is for AI
                 </Link>
-                {/* <Link 
-                  href="/services/steam/cybersec" 
+                <Link 
+                  href="/services/steam/jrsherlock" 
                   className="block px-4 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 transition-colors"
                 >
-                  Cyber Security
+                  Jr. Sherlock Holmes
                 </Link>
-                 <Link 
+                 {/* <Link 
                   href="/services/steam/jolly" 
                   className="block px-4 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 transition-colors"
                 >

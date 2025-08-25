@@ -1,38 +1,26 @@
 "use client"
 
-import { Activity, Award, Lightbulb, Mountain, Navigation, Sparkles, Trophy, Users, Zap } from "lucide-react"
+import { Activity, Award, Lightbulb, Mountain, Navigation, Pen, Ruler, Sparkles, Trophy, Users, Zap } from "lucide-react"
 import { Card, CardHeader, CardTitle } from "./ui/card"
 import { SiStudyverse } from "react-icons/si"
 import { MdScience } from "react-icons/md"
 import { GiMaterialsScience } from "react-icons/gi"
 import { BiMovie } from "react-icons/bi"
 
-export default function TourActivities() {
+export default function SherlockActivities() {
   const activities = [
     {
       id: "1",
-      title: "Inquisitive Talk",
-      icon: Lightbulb,
-      image: "/tour/inquisitivetalk.jpg",
+      title: "Pigpen Cipher Technique",
+      icon: Pen,
+      image: "/sherlock/1.jpg",
     },
     {
       id: "2",
-      title: "STEAM Competition",
-      icon: GiMaterialsScience,
-      image: "/tour/comp.jpg",
-    },
-    {
-      id: "3",
-      title: "Prizes",
-      icon: Award,
-      image: "/tour/prize.jpg",
-    },
-    {
-      id: "4",
-      title: "Entertrainment",
-      icon: BiMovie,
-      image: "/tour/entertainment.jpg",
-    },
+      title: "Inch Word Technique",
+      icon: Ruler,
+      image: "/sherlock/2.jpg",
+    }
   ]
 
   return (
