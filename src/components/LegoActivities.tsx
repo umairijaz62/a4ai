@@ -65,11 +65,11 @@ export default function LegoActivities() {
               key={activity.id} 
               className="group overflow-hidden bg-white shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl"
             >
-              <div className="relative bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+              <div className="bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
                 <img
                   src={activity.image || "/placeholder.svg"}
                   alt={activity.title}
-                  className="w-full h-72 object-contain transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-70 object-center transition-transform duration-500 group-hover:scale-105"
                   onError={(e) => {
                     e.currentTarget.src = "https://via.placeholder.com/400x300/e5e7eb/6b7280?text=LEGO+Activity"
                   }}

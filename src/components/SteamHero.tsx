@@ -7,20 +7,20 @@ export default function SteamHero() {
     <section className="relative w-full h-[600px]">
       {/* Background Image */}
       <Image
-        src="/steambg.jpg" 
+        src="/steambgf.jpg" 
         alt="STEM Learning"
         fill
         className="object-center"
       />
 
-      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="absolute inset-0 bg-slate-9text-zinc-900/10"></div>
 
       <div className="relative md:hidden flex flex-col w-full h-full p-6 md:justify-center gap-6 md:p-24">
          <div className="flex bg-blue-300/60 rounded-full p-8 top-35  items-center text-center max-w-lg md:flex flex-col min-w-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-blue-600">
             STEAM Tour: A Day at Nust
           </h1>
-          <p className="text-white font-bold text-lg">Join us discover the wonders of No.1 ranked university in Pakistan</p>
+          <p className="text-blue-900 font-bold text-lg">Join us discover the wonders of No.1 ranked university in Pakistan</p>
         </div> 
         <div className="flex flex-col md:hidden gap-2">
 
@@ -28,42 +28,42 @@ export default function SteamHero() {
           <h1 className="text-3xl md:text-5xl font-bold text-blue-600">
             Why STEM?
           </h1>
-          <p className="text-white font-bold text-lg">96% of jobs are generated from STEM</p>
+          <p className="text-blue-900 font-bold text-lg">96% of jobs are generated from STEM</p>
         </div> 
         <div className="flex bg-blue-300/60 rounded-full p-8 top-35  items-center text-center max-w-lg md:flex flex-col min-w-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-blue-600">
             Why STEM?
           </h1>
-          <p className="text-white font-bold text-lg">A short three hour tour of NUST labs transformed the opinion of</p>
+          <p className="text-blue-900 font-bold text-lg">A short three hour tour of NUST labs transformed the opinion of</p>
         </div> 
 
         </div>
       </div>
 
 
-      <div className="relative flex flex-col w-full h-full md:justify-center items-center -top-3.5">
-        <div className="hidden absolute animate-pulse bg-blue-300/90 rounded-full p-8 items-center text-center max-w-3xl md:flex flex-col min-w-auto"
+      <div className="relative flex flex-col w-full h-full md:justify-center ">
+        <div className="hidden absolute animate-pulse bg-blue-300/60 rounded-full p-8 items-center text-center max-w-3xl md:flex flex-col min-w-auto"
         style={{
             // top: '40%',
             // right: '30%',
             animation: 'float5 3s ease-in-out infinite'
           }}>
-          <h1 className="text-3xl md:text-5xl font-bold text-blue-600">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-900">
             STEAM Tour: A day at Nust
           </h1>
-          <p className="text-slate-50 font-extrabold text-lg">Join us and discover the wonders of No. 1 ranked university in Pakistan</p>
+          <p className="text-zinc-900 font-bold text-lg">Join us and discover the wonders of No. 1 ranked university in Pakistan</p>
         </div>
-        <div className="hidden md:flex gap-2">
-          <div className="z-100 lg:z-0 relative bg-blue-300/90 rounded-full p-8 top-35  items-center text-center max-w-3xl md:flex flex-col min-w-auto text-white font-extrabold" style={{
+        <div className="hidden md:flex gap-2 mt-10">
+          <div className="z-100 lg:z-0 relative bg-blue-300/60 rounded-full p-8 top-35  items-center text-center max-w-3xl md:flex flex-col min-w-auto text-zinc-900 font-bold" style={{
             animation: "float5 3s ease-in-out infinite"
           }}>
-        <h1 className="text-blue-600">Why STEM?</h1>
+        <h1 className="text-blue-900">Why STEM?</h1>
         <p>96% of jobs are generated from STEM</p>
         </div>
-        <div className="z-100 lg:z-0 relative bg-blue-300/90 rounded-full p-8 top-35  items-center text-center max-w-3xl md:flex flex-col min-w-auto text-white font-extrabold" style={{
+        <div className="z-100 lg:z-0 relative bg-blue-300/60 rounded-full p-8 top-35  items-center text-center max-w-3xl md:flex flex-col min-w-auto text-zinc-900 font-bold" style={{
           animation: "float5 3s ease-in-out infinite"
         }}>
-        <h1 className="text-blue-600">Why STEM?</h1>
+        <h1 className="text-blue-900">Why STEM?</h1>
         <p>96% of jobs are generated from STEM</p>
         </div>
         </div>
@@ -109,7 +109,7 @@ export default function SteamHero() {
       </div> */}
 
       {/* Info Cards */}
-      <div className="absolute bottom-[-40px] right-8 z-20 flex flex-col md:flex-row shadow-lg">
+      <div className="hidden absolute bottom-[-40px] right-8 z-20 sm:flex flex-col md:flex-row shadow-lg text-white">
         <div className="bg-blue-400 text-white p-6 w-52 text-center">
           <h2 className="text-sm font-bold">STEAM Tour</h2>
           <p className="text-lg font-semibold mt-1">Age</p>

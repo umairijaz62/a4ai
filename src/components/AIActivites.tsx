@@ -15,13 +15,13 @@ export default function AIActivities() {
       id: "2",
       title: "Building Your First AI Program",
       icon: Navigation,
-      image: "/ai/alexa.jpg",
+      image: "/ai/firstai.jpg",
     },
     {
       id: "3",
       title: "How To Stop Robots Taking Over The World?",
       icon: Activity,
-      image: "/ai/face.jpg",
+      image: "/ai/manvsrobot.jpg",
     },
     {
       id: "4",
