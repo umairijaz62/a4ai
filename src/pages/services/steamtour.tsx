@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
+import Hero from "@/components/LegoHero";
 import { Navbar } from "@/components/Navbar";
-import ParentsTestimonials from "@/components/Parents";
 import PieChart from "@/components/PieChart";
 import SteamHero from "@/components/SteamHero";
 import TourActivities from "@/components/TourActivities";
@@ -12,12 +12,27 @@ export default function steamtour() {
       <Navbar />
       <SteamHero />
 
+      <div className="flex  justify-around py-20">
+        <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg">
+          <h1 className="text-xl text-blue-900">Why STEM?</h1>
+          <p>
+            96% of jobs are generated from STEM
+          </p>
+        </div>
+        <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg">
+          <h1 className="text-xl text-blue-900">Why STEM Tour</h1>
+          <p className="">
+            A short three hour tour of NUST labs transformed the opinion <br /> of 45% percent of grade 5 students
+          </p>
+        </div>
+      </div>
+
       <div className="max-w-full mx-auto px-6">
         <section className="mb-12 py-12">
           <TourActivities />
         </section>
       </div>
-      <ParentsTestimonials />
+      {/* <ParentsTestimonials /> */}
           <PieChart />
       <Footer />
     </main>

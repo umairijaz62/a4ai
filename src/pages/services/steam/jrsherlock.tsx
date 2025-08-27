@@ -1,8 +1,9 @@
 import AIActivities from "@/components/AIActivites";
 import AIHero from "@/components/AIHero";
 import Footer from "@/components/Footer";
+import Hero from "@/components/LegoHero";
 import { Navbar } from "@/components/Navbar";
-import ParentsTestimonials from "@/components/Parents";
+import { aiTestimonials, cyberTestimonials, TestimonialsSection } from "@/components/Parents";
 import SherlockActivities from "@/components/SherlockActivities";
 import Sherlockhero from "@/components/sherlockhero";
 import React from "react";
@@ -11,7 +12,7 @@ export default function jrsherlock() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
-      <Sherlockhero />
+      <Hero image="/masscot/cyberninja.jpg" imageName="Cyber Ninja" heading="Junior Sherlock Holmes" text="Immersive adventure into the mysterious world of information security where history, puzzles, and codes reveal the secrets of data hiding and the roots of modern cybersecurity." />
 
       <div className="max-w-full mx-auto px-6 ">
         <section className="mb-12 py-12">
@@ -30,7 +31,7 @@ export default function jrsherlock() {
           </div>
         </section>
       </div>
-      <ParentsTestimonials />
+      <TestimonialsSection testimonials={cyberTestimonials} />
       <Footer />
     </main>
   );

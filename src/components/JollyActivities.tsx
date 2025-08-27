@@ -3,48 +3,24 @@
 import { Activity, Award, Mountain, Navigation, Sparkles, Trophy, Users, Zap } from "lucide-react"
 import { Card, CardHeader, CardTitle } from "./ui/card"
 
-export default function LegoActivities() {
+export default function JollyActivities() {
   const activities = [
     {
       id: "robot-bot",
-      title: "5-Minute Robot Bot",
-      icon: Zap,
-      image: "/lego/day1.jpg",
+      title: "Spell & Sound",
+      image: "/jolly/soundspell.jpg",
       bgColor: "bg-blue-300"
     },
     {
       id: "obstacle-avoidance",
-      title: "Obstacle Avoidance",
-      icon: Navigation,
-      image: "/lego/opticals.jpg",
+      title: "Color & Creativity",
+      image: "/jolly/colors.jpg",
       bgColor: "bg-blue-600"
     },
     {
       id: "slope-climbing",
-      title: "Slope Climbing",
-      icon: Mountain,
-      image: "/lego/slop.jpg",
-      bgColor: "bg-blue-900"
-    },
-    {
-      id: "speed-racing-2",
-      title: "Speed Racing Advanced",
-      icon: Trophy,
-      image: "/lego/speed.jpg",
-      bgColor: "bg-blue-300"
-    },
-    {
-      id: "line-follower-1",
-      title: "Line Follower",
-      icon: Activity,
-      image: "/lego/line.jpg",
-      bgColor: "bg-blue-600"
-    },
-    {
-      id: "sumo-competition",
-      title: "Sumo Wrestling Championship",
-      icon: Award,
-      image: "/lego/presumo.jpg",
+      title: "Sport",
+      image: "/jolly/sport.jpg",
       bgColor: "bg-blue-900"
     },
   ]
@@ -65,7 +41,7 @@ export default function LegoActivities() {
                   alt={activity.title}
                   className="w-full transition-transform duration-500 group-hover:scale-105 aspect-square object-cover"
                   onError={(e) => {
-                    e.currentTarget.src = "https://via.placeholder.com/400x300/e5e7eb/6b7280?text=LEGO+Activity"
+                    e.currentTarget.src = "https://via.placeholder.com/400x300/e5e7eb/6b7280?text=jolly+"
                   }}
                 />
             </Card>

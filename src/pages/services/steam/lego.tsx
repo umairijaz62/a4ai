@@ -4,7 +4,7 @@ import LegoActivitiesTimeline from '@/components/LegoActivities';
 import LegoActivities from '@/components/LegoActivities';
 import Hero from '@/components/LegoHero';
 import { Navbar } from '@/components/Navbar';
-import ParentsTestimonials from '@/components/Parents';
+import { legoTestimonials, TestimonialsSection } from '@/components/Parents';
 import Testimonials from '@/components/Testimonials';
 import React from 'react';
 
@@ -12,7 +12,7 @@ const FirstLegoLeaguePage = () => {
    return (
     <main className="min-h-screen bg-blue-50">
         <Navbar />
-        <Hero />
+        <Hero image='/masscot/bytebuddyR.jpg' imageName='Byte Buddy' heading='First LEGO League' text='First LEGO League is a renowned international STEM competition held across 110 countries. We offer our local LEGO League competition at your campus.' />
 
 
       <div className="max-w-full mx-auto px-6 ">
@@ -36,7 +36,7 @@ const FirstLegoLeaguePage = () => {
 
       </div>
 
-      <ParentsTestimonials />
+      <TestimonialsSection testimonials={legoTestimonials} />
         <Footer />
     </main>
   )

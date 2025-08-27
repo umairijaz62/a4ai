@@ -167,7 +167,7 @@ export const Navbar = () => {
             <NavOption text="About Us" link="/aboutus" />
             
             <NavOption text="What We Offer" link="/services" clamp="right">
-            <NestedNavOption text="Zero Code AI" link="/services/zerocodeai" />
+            {/* <NestedNavOption text="Zero Code AI" link="/services/zerocodeai" /> */}
               <NestedNavOption text="STEAM Camps" link="/services/steam">
                 <Link 
                   href="/services/steam/lego" 
@@ -187,15 +187,12 @@ export const Navbar = () => {
                 >
                   Jr. Sherlock Holmes
                 </Link>
-                 {/* <Link 
-                  href="/services/steam/jolly" 
-                  className="block px-4 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 transition-colors"
-                >
-                  Jolly Phonics
-                </Link> */}
+                 
               </NestedNavOption>
-              <NestedNavOption text="Mentor Program" link="/services/mentor" />
+              {/* <NestedNavOption text="Mentor Program" link="/services/mentor" /> */}
               <NestedNavOption text="STEAM Tour" link="/services/steamtour" />
+              <NestedNavOption text="Jolly Phonics" link="/services/jolly" />
+
 
               
               {/* <NestedNavOption text="Mentor Program for O/A Level" link="/services/mentor">

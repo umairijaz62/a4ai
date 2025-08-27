@@ -1,15 +1,16 @@
 import AIActivities from "@/components/AIActivites";
 import AIHero from "@/components/AIHero";
 import Footer from "@/components/Footer";
+import Hero from "@/components/LegoHero";
 import { Navbar } from "@/components/Navbar";
-import ParentsTestimonials from "@/components/Parents";
+import { aiTestimonials,  TestimonialsSection } from "@/components/Parents";
 import React from "react";
 
 export default function aforai() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
-      <AIHero />
+      <Hero image="/masscot/agentvirtual.jpg" imageName="Agent Virtual" heading="A is for AI" text="As AI integrates into every facet of our children's lives, particularly among Generation Alpha, they are often regarded as AI natives. These AI natives tend to place excessive trust in and rely heavily on AI applications such as ChatGPT. It is essential to provide guidance and support to help them navigate biases and ethical issues associated with AI, ensuring they develop a balanced and realistic understanding of the AI revolution." />
 
       <div className="max-w-full mx-auto px-6 ">
         <section className="mb-12 py-12">
@@ -33,7 +34,7 @@ export default function aforai() {
           </div>
         </section>
       </div>
-      <ParentsTestimonials />
+      <TestimonialsSection testimonials={aiTestimonials} />
       <Footer />
     </main>
   );

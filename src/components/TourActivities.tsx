@@ -14,24 +14,28 @@ export default function TourActivities() {
       title: "Inquisitive Talk",
       icon: Lightbulb,
       image: "/tour/inquisitivetalk.jpg",
+      bgColor:"bg-blue-300"
     },
     {
       id: "2",
       title: "STEAM Competition",
       icon: GiMaterialsScience,
       image: "/tour/comp.jpg",
+      bgColor:"bg-blue-600"
     },
     {
       id: "3",
       title: "Prizes",
       icon: Award,
       image: "/tour/prize.jpg",
+      bgColor:"bg-blue-900"
     },
     {
       id: "4",
       title: "Entertrainment",
       icon: BiMovie,
       image: "/tour/entertainment.jpg",
+      bgColor:"bg-blue-300"
     },
   ]
 
@@ -42,34 +46,18 @@ export default function TourActivities() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {activities.map((activity) => (
             <Card 
-              key={activity.id} 
-              className="group overflow-hidden bg-white shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl"
+            key={activity.id} 
+            className={`group overflow-hidden ${activity.bgColor} shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl p-0`}
             >
-              <div className="relative bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+              <h1 className="text-lg text-white font-bold text-center py-3">{activity.title}</h1>
                 <img
                   src={activity.image || "/placeholder.svg"}
                   alt={activity.title}
-                  className="w-full h-72 object-contain transition-transform duration-500 group-hover:scale-105"
+                  className="w-full transition-transform duration-500 group-hover:scale-105 aspect-video object-cover"
                   onError={(e) => {
                     e.currentTarget.src = "https://via.placeholder.com/400x300/e5e7eb/6b7280?text=LEGO+Activity"
                   }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
-              
-              <CardHeader className="p-8">
-                <div className="flex items-center mb-4">
-                  <div className="p-3 rounded-xl bg-gradient-to-br from-blue-100 to-blue-200 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                    {(() => {
-                      const IconComponent = activity.icon
-                      return <IconComponent className="h-6 w-6 text-blue-700" />
-                    })()}
-                  </div>
-                </div>
-                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-blue-900 transition-colors duration-300 leading-tight">
-                  {activity.title}
-                </CardTitle>
-              </CardHeader>
             </Card>
           ))}
         </div>

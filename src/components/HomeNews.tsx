@@ -21,7 +21,7 @@ const HomeNews = () => {
 
   return (
     <div className="min-h-screen bg-blue-50">
-      <div className="bg-gradient-to-br from-primary/5 via-background to-accent/5 py-16">
+      <div className="py-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="font-serif text-blue-900 text-4xl md:text-5xl font-bold mb-4 tracking-tight">
             Latest News & Updates
