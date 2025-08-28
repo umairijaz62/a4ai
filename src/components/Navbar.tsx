@@ -162,7 +162,7 @@ export const Navbar = () => {
            <A4AILogo variant="navbar" />
           </Link>
           
-          <div className="flex gap-8 items-center text-base">
+          <div className="flex gap-8 items-center text-black text-base">
             <NavOption text="Home" link="/" />
             <NavOption text="About Us" link="/aboutus" />
             

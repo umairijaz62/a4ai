@@ -9,11 +9,13 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
+      <div className='bg-white'>
       <Navbar />
       <MissionVision />
       <HomeNews />
       <Testimonials />
       <Patners />
+      </div>
       <Footer />      
     </div>
   )

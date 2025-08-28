@@ -71,7 +71,7 @@ const Testimonials = ({
         ref={left}
         className={`${
           isLInView ? "translate-y-0 opacity-100" : "translate-y-40 opacity-0"
-        }  transition duration-1000 flex flex-col p-4 lg:p-0 lg:flex-row gap-8 md:gap-12 items-center lg:gap-[5%]  justify-center py-4  overflow-hidden `}
+        }  transition duration-1000 flex flex-col p-4 lg:p-0 lg:flex-row gap-8 md:gap-12 items-center lg:gap-[5%]  justify-center py-4  overflow-hidden bg-white `}
       >
         <div
           className={` flex flex-col gap-4 transition duration-500 text-justify md:text-left  `}
