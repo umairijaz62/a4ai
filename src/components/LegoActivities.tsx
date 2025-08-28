@@ -7,7 +7,7 @@ export default function LegoActivities() {
   const activities = [
     {
       id: "robot-bot",
-      title: "5-Minute Robot Bot",
+      title: "5-Minute Bot",
       icon: Zap,
       image: "/lego/day1.jpg",
       bgColor: "bg-blue-300"
@@ -51,7 +51,7 @@ export default function LegoActivities() {
 
   return (
     <div className="min-h-screen bg-blue-50 py-8">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col">
+      <div className="max-w-8xl mx-auto px-32 flex flex-col">
         <h2 className="text-4xl text-blue-600 font-bold text-center mb-8 border-b border-slate-200 pb-3">Activities</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {activities.map((activity) => (
@@ -59,7 +59,7 @@ export default function LegoActivities() {
             key={activity.id} 
             className={`group overflow-hidden ${activity.bgColor} shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl p-0`}
             >
-              <h1 className="text-lg text-white font-bold text-center py-3">{activity.title}</h1>
+              <h1 className="text-2xl text-white font-bold text-center flex items-center justify-center mt-5">{activity.title}</h1>
                 <img
                   src={activity.image || "/placeholder.svg"}
                   alt={activity.title}

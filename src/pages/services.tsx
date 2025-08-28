@@ -26,8 +26,8 @@ export default function WhatWeOffer() {
       href: "/services/zerocodeai ",
     },
     {
-        id: "mentor-program",
-        title: "Mentor Program",
+        id: "Joly-Phonics",
+        title: "Jolly Phonics",
         description:
         "Mentoring Young Minds helps college students prepare for top universities in Pakistan and abroad. From career counselling and profile building to internships, languages, and mentorship with NUST’s top performers it equips you with skills and direction to stand out globally.",
       href: "/services/mentor ",

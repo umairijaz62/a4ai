@@ -16,6 +16,34 @@ interface TestimonialsProps {
 export const aiTestimonials: Testimonial[] = [
   {
     id: 1,
+    name:"Hareem's Parents",
+    image:"/parents/15.jpg",
+    text: "Hareem Nawaz shared that Murabbi Summer Camp gave her a chance to learn, connect, and enjoy with amazing people. She gave a special thanks to Team Murabbi."
+  },
+   {
+    id: 2,
+    name: "Hamza Rehman",
+    image: "/parents/13.jpg",
+    text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
+  },
+  {
+    id: 3,
+    name: "Mutahir",
+    image: "/parents/11.jpg",
+    text: "This camp was the best experience for me! I made robots, played with sensors, and even wrote small programs. AI stories were so funny, and I loved learning about secret codes to keep data safe."
+  }
+ 
+];
+export const legoTestimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: "Zainab's Parents",
+    image: "/parents/12.jpg",
+    text: "Parents shared that Murabbi Summer Camp was a wonderful blend of learning with fun. They appreciated the team’s efforts in engaging kids and making concepts easy to understand, and sent best wishes for the future"
+  }
+  ,{
+    
+    id: 3,
     name:"Yang Minge",
     image:"/parents/6.jpg",
     text: "I built a robot that could move forward and it felt so cool to see it working. In cybersecurity, I sent secret codes to my friend and it was like playing a spy game. STEAM Camp made learning so much fun!"
@@ -26,40 +54,16 @@ export const aiTestimonials: Testimonial[] = [
     image: "/parents/4.jpg",
     text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
   },
-  {
-    id: 3,
-    name: "Mutahir",
-    image: "/parents/5.jpg",
-    text: "This camp was the best experience for me! I made robots, played with sensors, and even wrote small programs. AI stories were so funny, and I loved learning about secret codes to keep data safe."
-  }
-];
-export const legoTestimonials: Testimonial[] = [
-  {
-    id: 1,
-    name:"Mutasim ",
-    image:"/parents/10.jpeg",
-    text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
-  },
-  {
-    id: 2,
-    name: "Hamza Rehman",
-    image: "/parents/9.jpg",
-    text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
-  },
-  {
-    id: 3,
-    name: "Mutahir",
-    image: "/parents/5.jpg",
-    text: "This camp was the best experience for me! I made robots, played with sensors, and even wrote small programs. AI stories were so funny, and I loved learning about secret codes to keep data safe."
-  }
+  
+  
 ];
 
 export const cyberTestimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Saad Khan",
-    image: "/parents/7.jpg",
-    text: "The platform has completely transformed how we handle client portfolios. The intuitive interface makes complex financial planning accessible to everyone."
+    name: "Daniyal's Parents",
+    image: "/parents/16.jpg",
+    text: "Daniyal shared that his favorite part of the camp was building and programming the sumo robot. He expressed gratitude to his instructors and Team Murabbi, and is excited to join the next camp In Shaa Allah"
   },
   {
     id: 2,
@@ -70,7 +74,7 @@ export const cyberTestimonials: Testimonial[] = [
   {
     id: 3,
     name: "Hamza Rehman",
-    image: "/parents/9.jpg",
+    image: "/parents/7.jpg",
     text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
   },
 ];
@@ -90,7 +94,7 @@ export const jollyTestimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Sana's Mother",
+    name: "Ismail Shah's Mother",
     image: "/parents/3.jpg",
     text: "We had a wonderful experience with Murabbi’s Jolly Phonics sessions. The kids enjoyed every bit of it, and learning felt like play for them."
   }

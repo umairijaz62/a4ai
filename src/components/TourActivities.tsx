@@ -18,7 +18,7 @@ export default function TourActivities() {
     },
     {
       id: "2",
-      title: "STEAM Competition",
+      title: "STEM Competition",
       icon: GiMaterialsScience,
       image: "/tour/comp.jpg",
       bgColor:"bg-blue-600"
@@ -49,11 +49,11 @@ export default function TourActivities() {
             key={activity.id} 
             className={`group overflow-hidden ${activity.bgColor} shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl p-0`}
             >
-              <h1 className="text-lg text-white font-bold text-center py-3">{activity.title}</h1>
+              <h1 className="text-2xl text-white font-bold text-center mt-5">{activity.title}</h1>
                 <img
                   src={activity.image || "/placeholder.svg"}
                   alt={activity.title}
-                  className="w-full transition-transform duration-500 group-hover:scale-105 aspect-video object-cover"
+                  className="w-full transition-transform duration-500 group-hover:scale-105 aspect-square object-cover"
                   onError={(e) => {
                     e.currentTarget.src = "https://via.placeholder.com/400x300/e5e7eb/6b7280?text=LEGO+Activity"
                   }}

@@ -1,7 +1,7 @@
 import AIActivities from "@/components/AIActivites";
 import AIHero from "@/components/AIHero";
 import Footer from "@/components/Footer";
-import Hero from "@/components/LegoHero";
+import Hero from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { aiTestimonials, cyberTestimonials, TestimonialsSection } from "@/components/Parents";
 import SherlockActivities from "@/components/SherlockActivities";

@@ -2,7 +2,7 @@ import { ActivitiesSection } from '@/components/ActivitySection';
 import Footer from '@/components/Footer';
 import LegoActivitiesTimeline from '@/components/LegoActivities';
 import LegoActivities from '@/components/LegoActivities';
-import Hero from '@/components/LegoHero';
+import Hero from '@/components/Hero';
 import { Navbar } from '@/components/Navbar';
 import { legoTestimonials, TestimonialsSection } from '@/components/Parents';
 import Testimonials from '@/components/Testimonials';

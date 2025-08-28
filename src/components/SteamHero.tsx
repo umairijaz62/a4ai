@@ -46,7 +46,7 @@ export default function SteamHero() {
           className="h-96 w-full object-contain"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-36 gap-2">
-          <h1 className="text-4xl font-bold text-blue-900">STEAM Tour: A day at Nust</h1>
+          <h1 className="text-4xl font-bold text-blue-900">STEM Tour: A day at NUST</h1>
           <p className="mt-2 text-sm text-white">Join us and discover the wonders of No. 1 ranked university in Pakistan</p>
         </div>
       </div>
