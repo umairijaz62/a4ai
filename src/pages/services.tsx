@@ -47,9 +47,7 @@ export default function WhatWeOffer() {
       <Navbar />
       
       <main className="relative flex flex-col items-center justify-center py-12 md:py-20 px-4">
-        {/* Hero Section */}
-          
-          
+
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
             <span className="text-blue-800">What We Offer</span>
           </h1>

@@ -11,7 +11,7 @@ export default function steamtour() {
       <Navbar />
       <SteamHero />
 
-      <div className="flex  justify-around py-20">
+      <div className="flex flex-col md:flex-row justify-around py-20">
         <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg">
           <h1 className="text-xl text-blue-900">Why STEM?</h1>
           <p>
