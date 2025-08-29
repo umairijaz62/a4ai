@@ -22,13 +22,13 @@ export const aiTestimonials: Testimonial[] = [
   },
    {
     id: 2,
-    name: "Musa",
+    name: "Muhammad Musa",
     image: "/parents/13.jpg",
     text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
   },
   {
     id: 3,
-    name: "Yahya",
+    name: "Muhammad Yahya",
     image: "/parents/11.jpg",
     text: "This camp was the best experience for me! I made robots, played with sensors, and even wrote small programs. AI stories were so funny, and I loved learning about secret codes to keep data safe."
   }
@@ -67,13 +67,13 @@ export const cyberTestimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Ibrahim",
+    name: "Muhammad Ibrahim",
     image: "/parents/8.jpg",
     text: "Outstanding analytics and reporting features have helped us make better investment decisions. Highly recommend for any financial professional."
   },
   {
     id: 3,
-    name: "Zaviya",
+    name: "Muhammad Zaviyan",
     image: "/parents/7.jpg",
     text: "The best thing about the camp was that we learned by doing. I actually made my own bot, solved puzzles with AI, and even learned how to stay safe online. It was exciting and I enjoyed every part of it."
   },
