@@ -10,7 +10,6 @@ import { useResponsiveItems } from "@/hooks/responsiveslider"
 const HomeNews = () => {
   const itemsPerSlide = useResponsiveItems()
 
-  // Group items based on current screen size
   const groupedItems = React.useMemo(() => {
     const groups = []
     for (let i = 0; i < newsitems.length; i += itemsPerSlide) {
@@ -33,7 +32,7 @@ const HomeNews = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-16">
+      <div className="max-w-8xl mx-auto px-6 py-16">
         <Carousel
           opts={{
             align: "start",
@@ -46,12 +45,12 @@ const HomeNews = () => {
             {groupedItems.map((group, slideIndex) => (
               <CarouselItem key={slideIndex} className="pl-4">
                 <div
-                  className={`grid gap-8 ${
+                  className={`grid gap-4 ${
                     itemsPerSlide === 1
                       ? "grid-cols-1"
                       : itemsPerSlide === 2
                         ? "grid-cols-1 md:grid-cols-2"
-                        : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+                        : "grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
                   }`}
                 >
                   {group.map((item, index) => (
@@ -83,8 +82,10 @@ const HomeNews = () => {
             ))}
           </CarouselContent>
         </Link>
+        <div className="lg:opacity-0">
           <CarouselPrevious className="left-0 bg-blue-500 text-white hover:bg-primary hover:text-primary-foreground shadow-xl border-0 w-12 h-12 transition-all duration-300" />
           <CarouselNext className="right-0 bg-blue-500 text-white hover:bg-primary hover:text-primary-foreground shadow-xl border-0 w-12 h-12 transition-all duration-300" />
+        </div>
         </Carousel>
       </div>
     </div>

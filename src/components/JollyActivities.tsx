@@ -35,7 +35,7 @@ export default function JollyActivities() {
             key={activity.id} 
             className={`group overflow-hidden ${activity.bgColor} shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 rounded-3xl p-0`}
             >
-              <h1 className="text-lg text-white font-bold text-center py-3">{activity.title}</h1>
+              <h1 className="text-2xl text-white font-bold text-center flex items-center justify-center mt-5">{activity.title}</h1>
                 <img
                   src={activity.image || "/placeholder.svg"}
                   alt={activity.title}

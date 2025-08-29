@@ -45,6 +45,6 @@ export const newsitems:newsitem[]= [
     },
     {
         image:"/newspic/10.jpeg",
-        description:"16 June - 25 July 2025: Murabbi & NUST-SEECS hosted Summer Camp 2025 in 2 sessions for ages 4-14, featuring specialized tracks in Robotics, Cyber Security, and AI/ML with activities including Jolly Phonics, Science Projects, IoT Projects and Machine Learning."
+        description:"16 June - 25 July 2025: Murabbi & NUST-SEECS hosted Summer Camp 2025 in 2 sessions for ages 4-14, featuring activities including Jolly Phonics."
     }
 ]

@@ -190,7 +190,7 @@ export const Navbar = () => {
                  
               </NestedNavOption>
               {/* <NestedNavOption text="Mentor Program" link="/services/mentor" /> */}
-              <NestedNavOption text="STEAM Tour" link="/services/steamtour" />
+              <NestedNavOption text="NUST STEM Tour" link="/services/stemtour" />
               <NestedNavOption text="Jolly Phonics" link="/services/jolly" />
 
 

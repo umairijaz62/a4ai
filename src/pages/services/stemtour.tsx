@@ -5,7 +5,7 @@ import SteamHero from "@/components/SteamHero";
 import TourActivities from "@/components/TourActivities";
 import React from "react";
 
-export default function steamtour() {
+export default function stemtour() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
